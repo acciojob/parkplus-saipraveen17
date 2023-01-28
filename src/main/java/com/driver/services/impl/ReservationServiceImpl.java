@@ -59,7 +59,8 @@ public class ReservationServiceImpl implements ReservationService {
             return reservation;
         }
         catch (Exception e) {
-            throw new Exception();
+            //throw new Exception();
+            return null;
         }
     }
 }
